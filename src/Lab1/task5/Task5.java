@@ -9,16 +9,16 @@ public class Task5 {
 
         System.out.print("Enter your age:");
         int age = scanner.nextInt();
-        scanner.nextLine();
+        //scanner.nextLine();
 
         System.out.print("Enter your height in meters: ");
         double height = scanner.nextDouble();
-        scanner.nextLine();
+        //scanner.nextLine();
 
         System.out.print("Are you a student? (yes/no): ");
-        boolean isStudent = scanner.nextBoolean();
+        //boolean isStudent = scanner.nextBoolean();
 
-        //boolean isStudent = scanner.nextLine() == "yes";
+        boolean isStudent = scanner.nextLine() == "yes";
 
         //виводимо
         System.out.println("Name: [" + name + "]");
