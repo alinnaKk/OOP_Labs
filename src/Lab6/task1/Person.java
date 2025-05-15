@@ -1,33 +1,10 @@
 package Lab6.task1;
 
 public class Person {
-    private String name;
-    private int age;
+    public String name;
+    public int age;
 
-    public Person(String name, int age){
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setName(String name){
-        this.name = name;
-    }
-
-    private void setAge(int age) {
-        this.age = age;
-    }
-
-    public void personInfo() {
-        System.out.println("Привіт, мене звати " + name + ", мені " + age + " років.") ;
+    public void introduce(String name, int age) {
+        System.out.println("Привіт, мене звати " + name + ", мені " + age + " років.");
     }
 }
-
-
