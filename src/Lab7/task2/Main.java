@@ -1,12 +1,10 @@
-package Lab7.task1;
-
-import Lab7.task2.BankAccount;
+package Lab7.task2;
 
 public class Main {
     public static void main(String[] args) {
-        Lab7.task2.BankAccount user1 = new Lab7.task2.BankAccount(795872, 0);
-        Lab7.task2.BankAccount user2 = new Lab7.task2.BankAccount(859357, 0);
-        Lab7.task2.BankAccount user3 = new BankAccount(298572, 0);
+        BankAccount user1 = new BankAccount(795872, 0);
+        BankAccount user2 = new BankAccount(859357, 0);
+        BankAccount user3 = new BankAccount(298572, 0);
 
         user1.setBalance(150000);
         user1.getBalance();

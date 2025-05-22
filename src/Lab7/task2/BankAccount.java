@@ -1,4 +1,4 @@
-package Lab7.task1;
+package Lab7.task2;
 
 public class BankAccount {
     private int accountNumber;
@@ -45,5 +45,6 @@ public class BankAccount {
             System.out.println("Помилка! Недостатньо грошей на рахунку! ");
         else
             System.out.println("Невідома помилка! ");
+        }
     }
-}
+
