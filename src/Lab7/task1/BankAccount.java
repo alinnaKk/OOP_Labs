@@ -45,5 +45,6 @@ public class BankAccount {
             System.out.println("Помилка! Недостатньо грошей на рахунку! ");
         else
             System.out.println("Невідома помилка! ");
+        }
     }
-}
+
