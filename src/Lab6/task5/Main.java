@@ -5,9 +5,7 @@ public class Main {
         Book book1 = new Book("Дім у волошковому морі", "Т. Дж. Клюн");
         Book book2 = new Book("Чаклунка і Культ");
 
-        System.out.println(book1);
-        System.out.println(book2);
-
-
+        book1.printInfo();
+        book2.printInfo();
     }
 }

@@ -13,4 +13,8 @@ public class Book {
         this.title = title;
         this.author = "Невідомий";
     }
+
+    public void printInfo() {
+        System.out.println("Назва: " + title + ", Автор: " + author);
+    }
 }
