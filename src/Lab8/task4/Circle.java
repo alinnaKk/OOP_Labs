@@ -7,7 +7,6 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    @Override
     public double area() {
         return Math.PI * radius * radius;
     }
