@@ -18,7 +18,7 @@ public class Clock {
         return seconds;
     }
 
-    // Сетери з перевіркою значень
+    // Сетери
     public void setHours(int hours) {
         if (hours >= 0 && hours <= 23) {
             this.hours = hours;
@@ -43,12 +43,10 @@ public class Clock {
         }
     }
 
-    // Метод для відображення поточного часу
     public void displayTime() {
         System.out.printf("%02d:%02d:%02d\n", hours, minutes, seconds);
     }
 
-    // Метод tick() — додає одну секунду
     public void tick() {
         seconds++;
         if (seconds > 59) {
