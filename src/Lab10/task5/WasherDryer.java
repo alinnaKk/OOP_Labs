@@ -9,6 +9,7 @@ public class WasherDryer extends Appliance implements Washable, Dryable {
     @Override
     public void turnOn() {
         System.out.printf( "Пральна машина [%s] увімкнена", super.getBrand());
+        System.out.println();
     }
 
     @Override
